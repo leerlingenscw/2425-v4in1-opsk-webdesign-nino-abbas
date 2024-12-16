@@ -20,7 +20,13 @@
 body {
    .grid-container {
       display: grid;
-      grid-template-columns: auto auto auto;
+      grid-template-areas: 
+      'header' 
+      'afbeeling'
+      'article'
+      'nav'
+      'footer'
+      grid-template-columns: auto;
       grid-template-rows: 60 350 300 200 90
    }   
 }
