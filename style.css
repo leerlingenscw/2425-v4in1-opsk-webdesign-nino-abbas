@@ -17,3 +17,10 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+body {
+   .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: 60 350 300 200 90
+   }   
+}
