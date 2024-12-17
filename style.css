@@ -24,7 +24,7 @@ body {
       grid-template-areas: 
       'header' 
       'afbeeling'
-      'article'
+      'main'
       'nav'
       'footer';
       grid-template-columns: auto auto auto;
@@ -38,8 +38,11 @@ body {
       text-align: center;
       font-size: 20px;
    }
-   .article {
-      grid-area: article;
-      backround colour
+   .main {
+      grid-area: main;
+      background-color: #f2cb9b;
+      color: rgb(0, 0, 0);
+      text-align: left;
+      font-size: 25px;
    }
 }
