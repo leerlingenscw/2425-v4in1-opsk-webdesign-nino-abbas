@@ -29,4 +29,7 @@ body {
       grid-template-columns: auto;
       grid-template-rows: 60 350 300 200 90
    }   
+   .header {
+      font: t
+   }
 }
