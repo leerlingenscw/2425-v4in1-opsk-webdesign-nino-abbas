@@ -30,7 +30,7 @@ body {
    'nav'
    'footer';
    grid-template-columns: auto;
-   grid-template-rows: 90px 350px 300px 200px 90px;
+   grid-template-rows: 90px 350px 500px 200px 90px;
 }      
 .header {
    grid-area: header;
