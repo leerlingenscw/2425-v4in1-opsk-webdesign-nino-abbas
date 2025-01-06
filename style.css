@@ -29,9 +29,8 @@ body {
    'main'
    'nav'
    'footer';
-   grid-template-columns: auto auto auto;
+   grid-template-columns: auto;
    grid-template-rows: 90px 350px 300px 200px 90px;
-   background-color: #f2cb9b;
 }      
 .header {
    grid-area: header;
