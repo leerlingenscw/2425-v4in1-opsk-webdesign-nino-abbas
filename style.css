@@ -19,6 +19,7 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 body {
    font-family: 'Times New Roman';
+   background-color: #F2CB9B;
 }
 
 .grid-container {
@@ -27,10 +28,11 @@ body {
    'header' 
    'afbeelding'
    'main'
+   'fotolink'
    'nav'
    'footer';
    grid-template-columns: auto;
-   grid-template-rows: 90px 500px 500px 200px 60px;
+   grid-template-rows: 90px 500px 500px 300px 300px 50px;
 }      
 .header {
    grid-area: header;
@@ -41,7 +43,7 @@ body {
 }
 .afbeelding {
    grid-area: afbeelding;
-   margin: 20px;
+   margin: 20px 0px;
 }
 .main {
    grid-area: main;
@@ -50,7 +52,7 @@ body {
    text-align: left;
    font-size: 25px;
 }
-.links {
+.nav {
    grid-area: nav;
    background-color: #84b1d9;
    color: rgb(0, 0, 0);
@@ -59,7 +61,7 @@ body {
 }
 .footer {
    grid-area: footer;
-   background-color: #84b1d9;
+   background-color: #734636;
    color: rgb(255, 255, 255);
    text-align: center;
    font-size: 20px;
@@ -69,4 +71,38 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 35%;
+}
+.fotolink {
+   margin: 20px;
+   width: 40%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* DE LINKS IN DE HEADER */
+.links {
+   margin-top: auto;
+   margin-bottom: auto;
+   color: #000000
+}
+.link1 {
+   margin-right: 30px;
+   color: #000000
+}
+.link2 {
+   margin-right: 30px;
+   color: #000000
+}
+.link3 {
+   margin-right: 30px;
+   color: #000000
+}
+.link4 {
+   margin-right: 30px;
+   color: #000000
+}
+.link5 {
+   margin-right: 30px;
+   color: #000000
 }
