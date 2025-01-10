@@ -30,7 +30,7 @@ body {
    'nav'
    'footer';
    grid-template-columns: auto;
-   grid-template-rows: 90px 350px 500px 200px 90px;
+   grid-template-rows: 90px 500px 500px 200px 30px;
 }      
 .header {
    grid-area: header;
@@ -41,6 +41,7 @@ body {
 }
 .afbeelding {
    grid-area: afbeelding;
+   margin: 20px;
 }
 .main {
    grid-area: main;
