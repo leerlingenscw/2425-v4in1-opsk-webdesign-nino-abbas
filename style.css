@@ -114,3 +114,24 @@ nav ul { list-style-type: none; }
    margin-right: 30px;
    color: #000000
 }
+ /* animaties voor de header */
+ .link1:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link2:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link3:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link4:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link5:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
