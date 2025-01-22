@@ -121,31 +121,37 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     color: #000000;
+    
  }
  .link1 {
     margin-right: 30px;
     color: #000000;
-    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
  }
  .link2 {
     margin-right: 30px;
     color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
  }
  .link3 {
     margin-right: 30px;
     color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
  }
  .link4 {
     margin-right: 30px;
     color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
  }
  .link5 {
     margin-right: 30px;
     color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
  }
  .link6 {
     margin-right: 30px; 
     color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
  }
  /* animaties voor de header */
  .link1:hover {

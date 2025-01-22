@@ -1,1 +1,180 @@
+/************************* DEBUG SETTINGS *************************/
 
+/* Settings to help find errors in your css
+   uncomment to enable */
+
+/* Add dotted line around all boxes.
+   This makes size of boxes visible.
+   Warning 1: this settings may change your layout.
+   Warning 2: keep the * as selector for all tags when uncommenting. */
+/*  * {border: 1px dotted black;}   */
+  
+/* Add semi-transparant dark background to all boxes
+   The more boxes are on top of eachother the darker tghe background color
+   Warning: keep the * as selector for all tags when uncommenting. */
+/*  * {background-color: rgba(0,0,0,5%);}  */
+
+/************************* YOUR SETTINGS *************************/
+
+/* add your css here, feel free to use comments and order them logically for better readability */
+body {
+    font-family: 'Times New Roman';
+    background-color: #F2CB9B;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header' 
+    'main afbeelding'
+    'nav nav'
+    'footer footer';
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90px 850px 800px 50px;
+ }      
+ .header {
+    grid-area: header;
+    background-color: #d94436;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 35px;
+ }
+ .afbeelding {
+    grid-area: afbeelding;
+    margin: 15px 10px;
+ }
+ .main {
+    grid-area: main;
+    background-color:  #ffeed9;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 25px;
+    padding: 15px;
+ }
+ .nav {
+    grid-area: nav;
+    background-color: #84b1d9;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+ }
+
+ .footer {
+    grid-area: footer;
+    background-color: #734636;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+ }
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 35%;
+ }
+ .fotolink {
+    margin: 20px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .articles-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   gap: 15px;
+ }
+
+ .article {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .article img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+ /* verwijdert bullet points */
+ nav ul { list-style-type: none; }
+ 
+ /* DE LINKS IN DE HEADER */
+ .links {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #000000;
+    
+ }
+ .link1 {
+    margin-right: 30px;
+    color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ .link2 {
+    margin-right: 30px;
+    color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ .link3 {
+    margin-right: 30px;
+    color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ .link4 {
+    margin-right: 30px;
+    color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ .link5 {
+    margin-right: 30px;
+    color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ .link6 {
+    margin-right: 30px; 
+    color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ /* animaties voor de header */
+ .link1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link5:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link6:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+ }
