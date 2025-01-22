@@ -42,7 +42,7 @@ body {
    background-color: #d94436;
    color: rgb(0, 0, 0);
    text-align: center;
-   font-size: 50px;
+   font-size: 35px;
 }
 .afbeelding {
    grid-area: afbeelding;
@@ -102,27 +102,31 @@ nav ul { list-style-type: none; }
 .links {
    margin-top: auto;
    margin-bottom: auto;
-   color: #000000
+   color: #000000;
 }
 .link1 {
    margin-right: 30px;
-   color: #000000
+   color: #000000;
 }
 .link2 {
    margin-right: 30px;
-   color: #000000
+   color: #000000;
 }
 .link3 {
    margin-right: 30px;
-   color: #000000
+   color: #000000;
 }
 .link4 {
    margin-right: 30px;
-   color: #000000
+   color: #000000;
 }
 .link5 {
    margin-right: 30px;
-   color: #000000
+   color: #000000;
+}
+.link6 {
+   margin-right: 30px;
+   color: #000000;
 }
  /* animaties voor de header */
  .link1:hover {
@@ -142,6 +146,10 @@ nav ul { list-style-type: none; }
    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .link5:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.link6:hover {
    transform: translateY(-5px);
    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
