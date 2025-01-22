@@ -35,7 +35,7 @@ body {
    'nav'
    'footer';
    grid-template-columns: auto;
-   grid-template-rows: 90px 500px 500px 300px 250px 50px;
+   grid-template-rows: 90px 500px 500px 350px 250px 50px;
 }      
 .header {
    grid-area: header;
@@ -78,12 +78,22 @@ body {
   margin-right: auto;
   width: 35%;
 }
-.fotolink {
+
+.foto {
+   background-color: #ffffff;
    margin: 20px;
+   padding: 10px;
+   border: 1px #dddddd;
    width: 40%;
    display: block;
+   border-radius: 5px;
    margin-left: auto;
    margin-right: auto;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.foto:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 /* verwijdert bullet points */
 nav ul { list-style-type: none; }
