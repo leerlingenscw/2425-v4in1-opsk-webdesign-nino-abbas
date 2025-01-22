@@ -20,6 +20,9 @@
 body {
    font-family: 'Times New Roman';
    background-color: #F2CB9B;
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
 }
 
 .grid-container {
