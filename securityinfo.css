@@ -98,7 +98,8 @@ body {
 
 .next {
    grid-area: next;
-   display: block;
+   
+   height: 40px;
    margin-left: auto;
    margin-right: auto;
    
