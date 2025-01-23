@@ -118,6 +118,8 @@ body {
    margin-right: 30px;
    color: #000000;
    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   text-decoration: none;
+   text-shadow: #c33d30 2px 5px;
 }
 
 /* animaties voor de header */
