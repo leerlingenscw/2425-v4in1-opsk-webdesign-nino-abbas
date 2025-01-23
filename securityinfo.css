@@ -46,7 +46,12 @@ body {
  }
  .afbeelding {
     grid-area: afbeelding;
-    margin: 15px 10px;
+    margin: 15px 15px;
+ }
+ .passend-afbeelding {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
  }
  .kop {
    grid-area: kop;
@@ -64,7 +69,7 @@ body {
     text-align: left;
     font-size: 24px;
     padding-left: 10px;
-    margin: 15px 15px 15px 90px;
+    margin: 15px 15px 15px 30px;
  }
  .main2 {
    grid-area: main2;
@@ -73,7 +78,7 @@ body {
    text-align: left;
    font-size: 24px;
    padding-left: 10px;
-   margin: 15px 15px 15px 90px;
+   margin: 15px 15px 15px 30px;
 }
  .informatie {
    grid-area: informatie;
