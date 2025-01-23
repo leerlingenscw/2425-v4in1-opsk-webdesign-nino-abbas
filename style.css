@@ -58,6 +58,7 @@ body {
    color: rgb(0, 0, 0);
    text-align: left;
    font-size: 25px;
+   padding: 5px 0px 0px 15px;
 }
 .nav {
    grid-area: nav;

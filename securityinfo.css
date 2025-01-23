@@ -76,6 +76,8 @@ body {
     font-size: 24px;
     padding-left: 10px;
     margin: 15px 15px 15px 30px;
+    border-style: solid;
+    border-color: #734636;
  }
  .main2 {
    grid-area: main2;
@@ -85,6 +87,9 @@ body {
    font-size: 24px;
    padding-left: 10px;
    margin: 15px 15px 15px 30px;
+   border-style: solid;
+   border-color: #734636;
+   
 }
  .informatie {
    grid-area: informatie;
@@ -94,6 +99,8 @@ body {
    font-size: 24px;
    padding: 0px 15px;
    margin: 0px 15px 15px 15px;
+   border-style: solid;
+   border-color: #734636;
 }
 
 .next {
