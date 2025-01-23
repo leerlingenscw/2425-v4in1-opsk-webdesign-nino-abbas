@@ -99,6 +99,10 @@ body {
    transform: translateY(-5px);
    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
+
+.text {
+   font-size: 18px;
+}
 /* verwijdert bullet points */
 nav ul { list-style-type: none; }
 
