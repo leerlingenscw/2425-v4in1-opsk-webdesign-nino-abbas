@@ -35,7 +35,7 @@ body {
    'nav'
    'footer';
    grid-template-columns: auto;
-   grid-template-rows: 90px 500px 500px 350px 250px 50px;
+   grid-template-rows: 90px 700px 500px 350px 250px 50px;
 }      
 .header {
    grid-area: header;
@@ -50,7 +50,12 @@ body {
 }
 .afbeelding {
    grid-area: afbeelding;
-   margin: 20px 0px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+   border-radius: 10px;
+
 }
 .main {
    grid-area: main;
@@ -81,7 +86,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 45%;
 }
 
 .foto {
