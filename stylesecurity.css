@@ -48,7 +48,16 @@ body {
  .afbeelding {
     grid-area: afbeelding;
     margin: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
+.foto {
+   width: 90%;
+   height: 90%;
+   object-fit: contain;
+}
+
  .main {
     grid-area: main;
     background-color:  #ffeed9;
@@ -101,7 +110,7 @@ body {
     text-shadow: #dddddd 2px 5px;
     padding: 10px;
     border: 1px #dddddd;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px 40px 0px 40px;
     text-align: center;
