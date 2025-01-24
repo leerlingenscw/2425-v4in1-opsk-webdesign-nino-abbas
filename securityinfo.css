@@ -49,6 +49,9 @@ body {
     z-index: 100;
  }
  .afbeelding {
+   display: flex;
+   align-items: center;
+   justify-content: center;
     grid-area: afbeelding;
     margin: 15px 15px;
  }
