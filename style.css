@@ -48,6 +48,9 @@ body {
    font-size: 35px;
    
 }
+
+
+
 .afbeelding {
    grid-area: afbeelding;
    display: block;
